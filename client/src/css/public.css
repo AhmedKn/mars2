@@ -1,0 +1,7 @@
+.public-section{
+    background-image:url(../assets/marsbg.jpg);
+  height:100vh;
+  background-size:cover;
+  background-position:center;
+  position: relative;
+}

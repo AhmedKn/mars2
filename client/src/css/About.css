@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Josefin+Sans:wght@100;200;300;400;500&display=swap');
+#about{
+  text-align:center;
+  background-image: url(../assets/why_mars.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height:100vh;
+}
+
+#about .overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  z-index: 0;
+  background-color:rgba(0,0,0,0.4);
+}
+
+.about{
+  position: relative;
+  z-index:2;
+}
+
+.about h1{
+  color:#fff;
+  font-family:Josefin Sans;
+  margin-top:60px;
+}
+
+.about p{
+  font-family:Josefin Sans;
+  color:#eee;
+}
